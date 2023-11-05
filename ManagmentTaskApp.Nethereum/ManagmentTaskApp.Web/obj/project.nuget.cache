@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "J7LBN7kgBo6kRK5s4LMqW9cy+i3x85hW4Pf4dplAIge1NThN6KWMtCiuzDeEHGKH+vgkE3/Yk8t1F9wbFf3abA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\human\\source\\repos\\ManagmentTaskApp.Nethereum\\ManagmentTaskApp.Web\\ManagmentTaskApp.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\human\\.nuget\\packages\\adraffy.ensnormalize\\0.1.5\\adraffy.ensnormalize.0.1.5.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\nbitcoin.secp256k1\\1.0.3\\nbitcoin.secp256k1.1.0.3.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\nethereum.abi\\4.17.1\\nethereum.abi.4.17.1.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\nethereum.accounts\\4.17.1\\nethereum.accounts.4.17.1.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\nethereum.blockchainprocessing\\4.17.1\\nethereum.blockchainprocessing.4.17.1.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\nethereum.contracts\\4.17.1\\nethereum.contracts.4.17.1.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\nethereum.hex\\4.17.1\\nethereum.hex.4.17.1.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\nethereum.jsonrpc.client\\4.17.1\\nethereum.jsonrpc.client.4.17.1.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\nethereum.jsonrpc.rpcclient\\4.17.1\\nethereum.jsonrpc.rpcclient.4.17.1.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\nethereum.keystore\\4.17.1\\nethereum.keystore.4.17.1.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\nethereum.merkle.patricia\\4.17.1\\nethereum.merkle.patricia.4.17.1.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\nethereum.model\\4.17.1\\nethereum.model.4.17.1.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\nethereum.rlp\\4.17.1\\nethereum.rlp.4.17.1.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\nethereum.rpc\\4.17.1\\nethereum.rpc.4.17.1.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\nethereum.signer\\4.17.1\\nethereum.signer.4.17.1.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\nethereum.signer.eip712\\4.17.1\\nethereum.signer.eip712.4.17.1.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\nethereum.util\\4.17.1\\nethereum.util.4.17.1.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\nethereum.web3\\4.17.1\\nethereum.web3.4.17.1.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\human\\.nuget\\packages\\portable.bouncycastle\\1.8.2\\portable.bouncycastle.1.8.2.nupkg.sha512"
+  ],
+  "logs": []
+}

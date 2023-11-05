@@ -1,0 +1,15 @@
+C:\Users\human\source\repos\ManagmentTaskApp.Nethereum\ManagmentTaskApp.Nethereum\bin\Debug\net7.0\ManagmentTaskApp.Nethereum.deps.json
+C:\Users\human\source\repos\ManagmentTaskApp.Nethereum\ManagmentTaskApp.Nethereum\bin\Debug\net7.0\ManagmentTaskApp.Nethereum.dll
+C:\Users\human\source\repos\ManagmentTaskApp.Nethereum\ManagmentTaskApp.Nethereum\bin\Debug\net7.0\ManagmentTaskApp.Nethereum.pdb
+C:\Users\human\source\repos\ManagmentTaskApp.Nethereum\ManagmentTaskApp.Nethereum\obj\Debug\net7.0\ManagmentTaskApp.Nethereum.csproj.AssemblyReference.cache
+C:\Users\human\source\repos\ManagmentTaskApp.Nethereum\ManagmentTaskApp.Nethereum\obj\Debug\net7.0\ManagmentTaskApp.Nethereum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\human\source\repos\ManagmentTaskApp.Nethereum\ManagmentTaskApp.Nethereum\obj\Debug\net7.0\ManagmentTaskApp.Nethereum.AssemblyInfoInputs.cache
+C:\Users\human\source\repos\ManagmentTaskApp.Nethereum\ManagmentTaskApp.Nethereum\obj\Debug\net7.0\ManagmentTaskApp.Nethereum.AssemblyInfo.cs
+C:\Users\human\source\repos\ManagmentTaskApp.Nethereum\ManagmentTaskApp.Nethereum\obj\Debug\net7.0\ManagmentTaskApp.Nethereum.csproj.CoreCompileInputs.cache
+C:\Users\human\source\repos\ManagmentTaskApp.Nethereum\ManagmentTaskApp.Nethereum\obj\Debug\net7.0\ManagmentTaskApp.Nethereum.dll
+C:\Users\human\source\repos\ManagmentTaskApp.Nethereum\ManagmentTaskApp.Nethereum\obj\Debug\net7.0\refint\ManagmentTaskApp.Nethereum.dll
+C:\Users\human\source\repos\ManagmentTaskApp.Nethereum\ManagmentTaskApp.Nethereum\obj\Debug\net7.0\ManagmentTaskApp.Nethereum.pdb
+C:\Users\human\source\repos\ManagmentTaskApp.Nethereum\ManagmentTaskApp.Nethereum\obj\Debug\net7.0\ref\ManagmentTaskApp.Nethereum.dll
+C:\Users\human\source\repos\ManagmentTaskApp.Nethereum\ManagmentTaskApp.Nethereum\bin\Debug\net7.0\ManagmentTaskApp.Model.dll
+C:\Users\human\source\repos\ManagmentTaskApp.Nethereum\ManagmentTaskApp.Nethereum\bin\Debug\net7.0\ManagmentTaskApp.Model.pdb
+C:\Users\human\source\repos\ManagmentTaskApp.Nethereum\ManagmentTaskApp.Nethereum\obj\Debug\net7.0\ManagmentTaskApp.Nethereum.csproj.CopyComplete

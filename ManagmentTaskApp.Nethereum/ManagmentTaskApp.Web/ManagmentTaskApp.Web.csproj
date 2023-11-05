@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nethereum.Hex" Version="4.17.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ManagmentTaskApp.Model\ManagmentTaskApp.Model.csproj" />
+    <ProjectReference Include="..\ManagmentTaskApp.Nethereum\ManagmentTaskApp.Nethereum.csproj" />
+  </ItemGroup>
+
+</Project>
