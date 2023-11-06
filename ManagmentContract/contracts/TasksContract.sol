@@ -28,7 +28,7 @@ contract TasksContract {
     }
 
     function createTask(string memory _title, string memory _description)
-        public
+    public
     {
         tasksCounter++;
         tasks[tasksCounter] = Task(
