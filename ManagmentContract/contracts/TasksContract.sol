@@ -24,11 +24,11 @@ contract TasksContract {
     mapping(uint256 => Task) public tasks;
 
     constructor() {
-        createTask("Primer tarea", "primer tarea por defecto");
+        createTask("my first task", "my first description");
     }
 
     function createTask(string memory _title, string memory _description)
-    public
+        public
     {
         tasksCounter++;
         tasks[tasksCounter] = Task(
@@ -53,55 +53,4 @@ contract TasksContract {
         tasks[_id] = _task;
         emit TaskToggledDone(_id, _task.done);
     }
-
-    function getTask(uint256 _id)
-        public
-        view
-        returns (
-            uint256 id,
-            string memory title,
-            string memory description,
-            bool done,
-            uint256 createdAt
-        )
-    {
-        Task memory _task = tasks[_id];
-        return (
-            _task.id,
-            _task.title,
-            _task.description,
-            _task.done,
-            _task.createdAt
-        );
-    }
-
-    function getTasks() public view returns (Task[] memory) {
-        Task[] memory _tasks = new Task[](tasksCounter);
-        for (uint256 i = 1; i <= tasksCounter; i++) {
-            _tasks[i - 1] = tasks[i];
-        }
-        return _tasks;
-    }
-
-    function deleteTask(uint256 _id) public {
-        delete tasks[_id];
-    }
-
-    function updateTask(
-        uint256 _id,
-        string memory _title,
-        string memory _description
-    ) public {
-        Task memory _task = tasks[_id];
-        _task.title = _title;
-        _task.description = _description;
-        tasks[_id] = _task;
-    }
-
-    //get address
-    function getAddress() public view returns (address) {
-        return address(this);
-    }
-
-
 }

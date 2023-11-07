@@ -1,0 +1,37 @@
+﻿@using SmartContractNethereum.Data.DTO
+@model Transaction
+@{
+    ViewData["Title"] = "Crear Transaccion";
+}
+<h1>@ViewData["Title"]</h1>
+
+<form action="CrearTransaccion" method="post">
+    <div>
+        <h1>Cuentas Habilitadas</h1>
+        Public Key:
+        <select name="IdCuenta">
+            @foreach (Account cuenta in ViewBag.Cuentas)
+            {
+                if (ViewBag.IdCuentaSeleccionada != null && ViewBag.IdCuentaSeleccionada == cuenta.Id)
+                {
+                    <option selected="selected" value="@cuenta.Id">@cuenta.PublicKey</option>
+                }
+                else
+                {
+                    <option value="@cuenta.Id">@cuenta.PublicKey</option>
+                }
+
+            }
+        </select>
+    </div>
+    <div>
+        Oferta Inicial:
+        <input type="number" name="TotalSupply" value="@Model.TotalSupply" />
+    </div>
+    <div>
+        Cantidad a enviar:
+        <input type="number" name="AmountToSend" value="@Model.AmountToSend" />
+    </div>
+
+    <input type="submit" value="Crear Transaccion" />
+</form>
