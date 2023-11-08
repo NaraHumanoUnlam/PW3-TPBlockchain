@@ -17,6 +17,10 @@ namespace SmartContractNethereum.Web.Controllers
             _nethereumServicio = nethereumServicio; 
          }
 
+        public ActionResult Index()
+        {
+            return View();
+        }
         public ActionResult Listar()
         {
             ViewBag.Transacciones = _transaccionServicio.ListarTransacciones();

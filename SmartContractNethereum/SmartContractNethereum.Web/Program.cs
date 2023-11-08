@@ -29,6 +29,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Wallet}/{action=Listar}/{id?}");
+    pattern: "{controller=Wallet}/{action=Index}/{id?}");
 
 app.Run();

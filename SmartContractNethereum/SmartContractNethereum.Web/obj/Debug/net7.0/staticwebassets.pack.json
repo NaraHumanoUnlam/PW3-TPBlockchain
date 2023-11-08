@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\Programacion Web 3\\PW3-TPBlockchain\\SmartContractNethereum\\SmartContractNethereum.Web\\wwwroot\\img\\Wall-eMask 1.png",
+      "PackagePath": "staticwebassets\\img\\Wall-eMask 1.png"
+    },
+    {
       "Id": "E:\\Programacion Web 3\\PW3-TPBlockchain\\SmartContractNethereum\\SmartContractNethereum.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
