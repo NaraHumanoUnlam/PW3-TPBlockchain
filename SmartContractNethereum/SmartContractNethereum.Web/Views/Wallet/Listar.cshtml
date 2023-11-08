@@ -1,0 +1,34 @@
+﻿@using SmartContractNethereum.Data.EF
+@{
+    ViewData["Title"] = "Listar Transacciones";
+}
+
+
+<div class="bg-dark text-light p-4">
+    <h1>Transacciones</h1>
+    <table class="table text-light">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Adress receptor</th>
+                <th scope="col">Balance de receptor</th>
+                <th scope="col">Adress emisor</th>
+                <th scope="col">Balance emisor</th>
+                <th scope="col">Cantidad de tokens enviados</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Transaction transaccion in ViewBag.Transacciones)
+            {
+                <tr>
+                    <td>@transaccion.Id</td>
+                    <td>@transaccion.RecieverAddress</td>
+                    <td>@transaccion.ReceiverBalance</td>
+                    <td>@transaccion.SenderAddress</td>
+                    <td>@transaccion.SenderBalance</td>
+                    <td>@transaccion.QuantityTokens</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

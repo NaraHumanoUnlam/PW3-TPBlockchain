@@ -1,16 +1,17 @@
-using SmartContractNethereum.Data.DTO;
+using SmartContractNethereum.Data.EF;
 using SmartContractNethereum.Servicios;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//Add services to the container.
+// Add services to the container.
 builder.Services.AddControllersWithViews();
 
+
 builder.Services.AddScoped<SmartContractsContext>();
-builder.Services.AddScoped<ISmartContractServicio, SmartContractServicio>();
+builder.Services.AddScoped<ITransaccionServicio, TransaccionServicio>();
+builder.Services.AddScoped<INethereumServicio, NethereumServicio>();
 
 var app = builder.Build();
-
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -28,6 +29,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Wallet}/{action=Listar}/{id?}");
 
 app.Run();

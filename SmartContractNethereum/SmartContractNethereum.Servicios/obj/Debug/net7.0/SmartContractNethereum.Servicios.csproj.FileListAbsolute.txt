@@ -1,0 +1,17 @@
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Servicios\bin\Debug\net7.0\SmartContractNethereum.Servicios.deps.json
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Servicios\bin\Debug\net7.0\SmartContractNethereum.Servicios.runtimeconfig.json
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Servicios\bin\Debug\net7.0\SmartContractNethereum.Servicios.dll
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Servicios\bin\Debug\net7.0\SmartContractNethereum.Servicios.pdb
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Servicios\bin\Debug\net7.0\SmartContractNethereum.Data.dll
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Servicios\bin\Debug\net7.0\SmartContractNethereum.Data.pdb
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Servicios\obj\Debug\net7.0\SmartContractNethereum.Servicios.csproj.AssemblyReference.cache
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Servicios\obj\Debug\net7.0\SmartContractNethereum.Servicios.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Servicios\obj\Debug\net7.0\SmartContractNethereum.Servicios.AssemblyInfoInputs.cache
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Servicios\obj\Debug\net7.0\SmartContractNethereum.Servicios.AssemblyInfo.cs
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Servicios\obj\Debug\net7.0\SmartContractNethereum.Servicios.csproj.CoreCompileInputs.cache
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Servicios\obj\Debug\net7.0\SmartContractNethereum.Servicios.csproj.CopyComplete
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Servicios\obj\Debug\net7.0\SmartContractNethereum.Servicios.dll
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Servicios\obj\Debug\net7.0\refint\SmartContractNethereum.Servicios.dll
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Servicios\obj\Debug\net7.0\SmartContractNethereum.Servicios.pdb
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Servicios\obj\Debug\net7.0\SmartContractNethereum.Servicios.genruntimeconfig.cache
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Servicios\obj\Debug\net7.0\ref\SmartContractNethereum.Servicios.dll

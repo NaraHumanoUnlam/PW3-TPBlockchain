@@ -1,0 +1,41 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SmartContractNethereum.Web
+build_property.RootNamespace = SmartContractNethereum.Web
+build_property.ProjectDir = E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Web\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Programacion Web 3/PW3-TPBlockchain/SmartContractNethereum/SmartContractNethereum.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programacion Web 3/PW3-TPBlockchain/SmartContractNethereum/SmartContractNethereum.Web/Views/Wallet/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FsbGV0XENyZWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programacion Web 3/PW3-TPBlockchain/SmartContractNethereum/SmartContractNethereum.Web/Views/Wallet/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FsbGV0XExpc3Rhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programacion Web 3/PW3-TPBlockchain/SmartContractNethereum/SmartContractNethereum.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programacion Web 3/PW3-TPBlockchain/SmartContractNethereum/SmartContractNethereum.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programacion Web 3/PW3-TPBlockchain/SmartContractNethereum/SmartContractNethereum.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4xe7o1oors

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartContractNethereum.Servicios", "SmartContractNethereum.Servicios\SmartContractNethereum.Servicios.csproj", "{E772457F-5D11-4224-8382-82BEB43CF62A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartContractNethereum.Data", "SmartContractNethereum.Data\SmartContractNethereum.Data.csproj", "{0BFCE52D-6070-451B-A633-227045D3A91C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartContractNethereum.Data", "SmartContractNethereum.Data\SmartContractNethereum.Data.csproj", "{0BFCE52D-6070-451B-A633-227045D3A91C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartContractNethereum.Servicios", "SmartContractNethereum.Servicios\SmartContractNethereum.Servicios.csproj", "{2CBF49FA-E0EC-4FDC-9BFE-346FC9AC637A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartContractNethereum.Web", "SmartContractNethereum.Web\SmartContractNethereum.Web.csproj", "{0D77126E-9236-4180-9557-9DBF98F1FC89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartContractNethereum.Web", "SmartContractNethereum.Web\SmartContractNethereum.Web.csproj", "{20C9D936-45F0-4892-9A3D-C1AB2F31702D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E772457F-5D11-4224-8382-82BEB43CF62A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E772457F-5D11-4224-8382-82BEB43CF62A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E772457F-5D11-4224-8382-82BEB43CF62A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E772457F-5D11-4224-8382-82BEB43CF62A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0BFCE52D-6070-451B-A633-227045D3A91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0BFCE52D-6070-451B-A633-227045D3A91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BFCE52D-6070-451B-A633-227045D3A91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BFCE52D-6070-451B-A633-227045D3A91C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0D77126E-9236-4180-9557-9DBF98F1FC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0D77126E-9236-4180-9557-9DBF98F1FC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0D77126E-9236-4180-9557-9DBF98F1FC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0D77126E-9236-4180-9557-9DBF98F1FC89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBF49FA-E0EC-4FDC-9BFE-346FC9AC637A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBF49FA-E0EC-4FDC-9BFE-346FC9AC637A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBF49FA-E0EC-4FDC-9BFE-346FC9AC637A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBF49FA-E0EC-4FDC-9BFE-346FC9AC637A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C9D936-45F0-4892-9A3D-C1AB2F31702D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C9D936-45F0-4892-9A3D-C1AB2F31702D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C9D936-45F0-4892-9A3D-C1AB2F31702D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C9D936-45F0-4892-9A3D-C1AB2F31702D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

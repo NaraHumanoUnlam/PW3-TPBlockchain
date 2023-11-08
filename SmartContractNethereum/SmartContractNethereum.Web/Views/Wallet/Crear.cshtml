@@ -1,0 +1,24 @@
+﻿@using SmartContractNethereum.Data.EF
+@model Transaction
+@{
+    ViewData["Title"] = "Crear Transaccion";
+}
+<h1>@ViewData["Title"]</h1>
+
+<form action="Crear" method="post">
+    <div>
+        Tu Adress:
+        <input type="text" name="sernderAdress" value="@Model.SenderAddress" />
+    </div>
+    <div>
+        Adrees que va a recibir tus tokens:
+        <input type="text" name="receiberAdress" value="@Model.RecieverAddress" />
+    </div>
+    <div>
+        Cantidad de tokens a enviar a enviar:
+        <input type="number" name="quantityTokens" value="@Model.QuantityTokens" />
+    </div>
+
+    <input type="submit" value="Crear Transaccion" />
+</form>
+

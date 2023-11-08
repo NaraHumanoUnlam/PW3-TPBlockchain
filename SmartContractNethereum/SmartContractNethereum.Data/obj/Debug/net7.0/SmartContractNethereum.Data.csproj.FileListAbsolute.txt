@@ -1,0 +1,14 @@
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Data\bin\Debug\net7.0\SmartContractNethereum.Data.deps.json
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Data\bin\Debug\net7.0\SmartContractNethereum.Data.runtimeconfig.json
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Data\bin\Debug\net7.0\SmartContractNethereum.Data.dll
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Data\bin\Debug\net7.0\SmartContractNethereum.Data.pdb
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Data\obj\Debug\net7.0\SmartContractNethereum.Data.csproj.AssemblyReference.cache
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Data\obj\Debug\net7.0\SmartContractNethereum.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Data\obj\Debug\net7.0\SmartContractNethereum.Data.AssemblyInfoInputs.cache
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Data\obj\Debug\net7.0\SmartContractNethereum.Data.AssemblyInfo.cs
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Data\obj\Debug\net7.0\SmartContractNethereum.Data.csproj.CoreCompileInputs.cache
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Data\obj\Debug\net7.0\SmartContractNethereum.Data.dll
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Data\obj\Debug\net7.0\refint\SmartContractNethereum.Data.dll
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Data\obj\Debug\net7.0\SmartContractNethereum.Data.pdb
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Data\obj\Debug\net7.0\SmartContractNethereum.Data.genruntimeconfig.cache
+E:\Programacion Web 3\PW3-TPBlockchain\SmartContractNethereum\SmartContractNethereum.Data\obj\Debug\net7.0\ref\SmartContractNethereum.Data.dll
