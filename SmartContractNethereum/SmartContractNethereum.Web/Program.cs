@@ -1,5 +1,6 @@
 using SmartContractNethereum.Data.EF;
 using SmartContractNethereum.Servicios;
+using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 
-builder.Services.AddScoped<SmartContractsContext>();
+builder.Services.AddTransient<SmartContractsContext>();
 builder.Services.AddScoped<ITransaccionServicio, TransaccionServicio>();
 builder.Services.AddScoped<INethereumServicio, NethereumServicio>();
 

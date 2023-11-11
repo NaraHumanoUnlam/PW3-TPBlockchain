@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using SmartContractNethereum.Data.EF;
 using SmartContractNethereum.Servicios;
+using System.Drawing;
 
 namespace SmartContractNethereum.Web.Controllers
 {
@@ -41,6 +42,7 @@ namespace SmartContractNethereum.Web.Controllers
             try
             {
                 _nethereumServicio.TransactionEther(sernderAdress, receiberAdress, quantityTokens);
+                System.Threading.Thread.Sleep(3000);
                 return RedirectToAction("Listar");
             }
             catch(Exception e)
@@ -48,7 +50,7 @@ namespace SmartContractNethereum.Web.Controllers
                 Console.WriteLine(e.ToString());
                 return View();
             }
-        }
+            }
 
 
     }

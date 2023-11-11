@@ -5,6 +5,8 @@ namespace SmartContractNethereum.Servicios
     public interface ITransaccionServicio
     {
         List<Transaction> ListarTransacciones();
+
+        void Crear(Transaction transaction);
     }
 
     public class TransaccionServicio : ITransaccionServicio
@@ -14,6 +16,12 @@ namespace SmartContractNethereum.Servicios
         public TransaccionServicio(SmartContractsContext context)
         {
             _context = context;
+        }
+
+        public void Crear(Transaction transaction)
+        {
+            _context.Transactions.Add(transaction);
+            _context.SaveChanges();
         }
 
         public List<Transaction> ListarTransacciones()

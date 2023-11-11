@@ -18,7 +18,7 @@
     </div>
     <div>
         Cantidad de tokens a enviar a enviar:
-        <input type="number" name="quantityTokens" value="@Model.QuantityTokens" />
+        <input type="number" name="quantityTokens" value="@Model.QuantityTokens" min="0" max="100" />
     </div>
 
     <input type="submit" value="Crear Transaccion" />
