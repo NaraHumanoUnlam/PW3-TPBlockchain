@@ -3,24 +3,72 @@
 @{
     ViewData["Title"] = "Crear Transaccion";
 }
-<h1>@ViewData["Title"]</h1>
-<div class="d-flex flex-row align-items-center align-content-center justify-content-center">
-    <a asp-area="" asp-controller="Wallet" asp-action="Index"> <img src="~/img/wall-emask 1.png" class="m-5" /></a> <h3>BidbayMask</h3>
+
+<style>
+    .div-redondeado {
+        border-radius: 10px;
+        border: 2px solid white;
+        padding: 20px;
+        transition: background-color 0.3s;
+    }
+
+        .div-redondeado:hover {
+            background-color: #e19152;
+        }
+</style>
+<div class="bg-dark text-light p-4">
+    <div class="d-flex flex-row align-items-center align-content-center justify-content-center">
+        <a asp-area="" asp-controller="Wallet" asp-action="Index"> <img src="~/img/wall-emask 1.png" class="m-5" /></a> <h3>BidbayMask</h3>
+    </div>
+    <h1 class="mb-5 text-center">Crear Transacción</h1>
+    <div class="mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="div-redondeado">
+                    <div>
+                        <form action="Crear" method="post">
+                            <div class="form-group mb-4">
+                                <label class="mb-2" for="senderAddress">Clave Privada:</label>
+                                <div class="d-flex">
+                                    <input class="form-control" type="password" name="sernderAdress" value="@Model.SenderAddress" />
+                                    <small class="form-text text-muted">
+                                        <button type="button" class="btn btn-sm btn-secondary info-btn" data-toggle="tooltip" data-placement="top" title="Información general sobre tu clave privada">i</button>
+                                    </small>
+                                </div>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label class="mb-2" for="receiverAddress">Dirección Destino:</label>
+                                <div class="d-flex">
+                                    <input class="form-control" type="text" name="receiberAdress" value="@Model.RecieverAddress" />
+                                    <small class="form-text text-muted">
+                                        <button type="button" class="btn btn-sm btn-secondary info-btn" data-toggle="tooltip" data-placement="top" title="Información general sobre la dirección del destinatario">i</button>
+                                    </small>
+                                </div>
+                            </div>
+                            <div class="form-group mb-5">
+                                <label class="mb-2" for="quantityTokens">Cantidad de Tokens:</label>
+                                <div class="d-flex">
+                                    <input class="form-control" type="number" name="quantityTokens" value="@Model.QuantityTokens" min="0" max="100" />
+                                    <small class="form-text text-muted">
+                                        <button type="button" class="btn btn-sm btn-secondary info-btn " data-toggle="tooltip" data-placement="top" title="Información general sobre la cantidad de tokens">i</button>
+                                    </small>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button type="submit" class="btn btn-secondary">Crear Transaccion</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<form action="Crear" method="post">
-    <div>
-        Tu Adress:
-        <input type="text" name="sernderAdress" value="@Model.SenderAddress" />
-    </div>
-    <div>
-        Adrees que va a recibir tus tokens:
-        <input type="text" name="receiberAdress" value="@Model.RecieverAddress" />
-    </div>
-    <div>
-        Cantidad de tokens a enviar a enviar:
-        <input type="number" name="quantityTokens" value="@Model.QuantityTokens" min="0" max="100" />
-    </div>
-
-    <input type="submit" value="Crear Transaccion" />
-</form>
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
